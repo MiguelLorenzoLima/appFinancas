@@ -9,7 +9,7 @@
 
 ---
 
-## <center> Telas do Aplicativo <center>
+## <h1 align="center">Telas do Aplicativo</h1>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a8ede8e0-ef63-43ac-b76d-362ed9855d06" width="230" />
