@@ -1,90 +1,56 @@
-# Finanças Pessoais | LUCAS MERINI FLORES
+<h1 align="center">💸 Finanças Pessoais | Organize seus Gastos</h1>
 
-Aplicativo mobile de controle de finanças pessoais desenvolvido com React Native, Expo e Supabase na aula de CODIFICAR APLICAÇÕES DISPOSITIVOS MOVEIS.
+<p align="center">
+  Aplicativo mobile de controle financeiro pessoal desenvolvido com <b>React Native</b>, <b>Expo</b> e <b>Supabase</b>.<br/>
+  Projeto criado durante as aulas de <b>Codificar Aplicações para Dispositivos Móveis</b>.
+</p>
+
+---
+
+## 🖼️ Telas do Aplicativo
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8ede8e0-ef63-43ac-b76d-362ed9855d06" width="230" />
+  <img src="https://github.com/user-attachments/assets/47a353f8-dd25-4758-8059-6d5da32a9a50" width="230" />
+  <img src="https://github.com/user-attachments/assets/f9a465d0-b62b-4b72-82be-6d366a1fe29d" width="230" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dd93ae6f-66ef-4ecc-abb9-0f61c1a1970c" width="230" />
+  <img src="https://github.com/user-attachments/assets/f5f1b487-3faf-4ed9-acf7-368f3bac76b7" width="230" />
+  <img src="https://github.com/user-attachments/assets/c756703b-b9ff-4a8f-8419-53be1da8f921" width="230" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf52cc55-8f65-42f4-8b9a-6b9beb94480b" width="230" />
+</p>
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ **React Native** — Framework para apps nativos com JavaScript
+- 🧭 **Expo** — Ferramenta para desenvolvimento e execução simplificada
+- 🗄️ **Supabase** — Banco de dados e autenticação
+- 📊 **Victory / Recharts** — Visualização de dados financeiros
+- 💅 **Styled Components / Tailwind / NativeWind** — Estilização moderna e responsiva
+
+---
 
 ## 📋 Funcionalidades
 
-- ✅ Sistema de autenticação (Login e Cadastro)
-- ✅ Dashboard com resumo financeiro
-- ✅ Gráficos de receitas e despesas
-- ✅ Cadastro de receitas e despesas
-- ✅ Anexar comprovantes
-- ✅ Gerenciamento de categorias personalizadas
-- ✅ Listagem e filtros de transações
-- ✅ Design responsivo e moderno
+✅ Login e cadastro de usuários  
+✅ Dashboard com resumo financeiro  
+✅ Gráficos de receitas e despesas  
+✅ Cadastro e gerenciamento de transações  
+✅ Upload de comprovantes  
+✅ Categorias personalizadas  
+✅ Filtros e busca de transações  
+✅ Design moderno e responsivo  
 
-### 1. Clone e instale as dependências
+---
 
-```bash
-# Já está no diretório do projeto
-cd C:\Users\lucas.flores\Documents\appFinancasDespesas
+## 🧩 Instalação e Configuração
+
+### 1️⃣ Clonar o Repositório e Instalar Dependências
 
 # Instalar dependências
 npm install
-```
-
-### 2. Configurar o Supabase
-
-#### 2.1. Criar projeto no Supabase
-
-1. Acesse [https://supabase.com](https://supabase.com)
-2. Crie uma conta (se não tiver)
-3. Clique em "New Project"
-4. Preencha os dados:
-   - **Name**: app-financas (ou o nome que preferir)
-   - **Database Password**: Crie uma senha forte
-   - **Region**: Escolha a região mais próxima
-5. Aguarde a criação do projeto (pode levar alguns minutos)
-
-#### 2.2. Executar o Schema SQL
-
-1. No painel do Supabase, vá em **SQL Editor** (menu lateral)
-2. Clique em **New Query**
-3. Copie todo o conteúdo do arquivo `supabase-schema.sql`
-4. Cole no editor SQL
-5. Clique em **Run** (ou pressione Ctrl+Enter)
-6. Aguarde a execução (deve aparecer "Success")
-
-#### 2.3. Configurar as credenciais no app
-
-1. No painel do Supabase, vá em **Settings** > **API**
-2. Copie as seguintes informações:
-   - **Project URL** (algo como: https://xxxxx.supabase.co)
-   - **anon public** key (uma chave longa)
-
-3. Abra o arquivo `src/config/supabase.js`
-4. Substitua as variáveis:
-
-```javascript
-const SUPABASE_URL = 'https://xxxxx.supabase.co'; // Cole sua URL aqui
-const SUPABASE_ANON_KEY = 'sua-anon-key-aqui'; // Cole sua chave aqui
-```
-
-### 4. Executar o aplicativo
-
-```bash
-# Iniciar o Expo
-npm start
-
-# Ou para plataformas específicas:
-npm run android  # Para Android
-npm run ios      # Para iOS (apenas no macOS)
-```
-
-### 5. Testar no dispositivo
-
-1. Instale o app **Expo Go** no seu celular:
-   - [Android - Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent)
-   - [iOS - App Store](https://apps.apple.com/app/expo-go/id982107779)
-
-2. Escaneie o QR Code que aparece no terminal ou navegador
-
-3. O app será carregado no seu dispositivo!
-
-## 📄 Imagens
-
-![Início](./image2.png)
-![Despesas](./image3.png)
-![Categoria](./image.png)
-
----
