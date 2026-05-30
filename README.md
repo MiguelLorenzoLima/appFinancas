@@ -1,4 +1,4 @@
-<h1 align="center"> Finanças Pessoais | Codificar Aplicações para Dispositivos Móveis</h1>
+<h1 align="center"> Finanças Pessoais 
 <h3 align="center">Miguel Lorenzo Lima</h3>
 
 <p align="center">
