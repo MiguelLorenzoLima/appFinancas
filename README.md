@@ -52,27 +52,6 @@
 - Validação de dados  
 - Download de comprovantes na listagem  
 
-### Cadastro de Receitas
-- Inserção de receitas com formulário simples  
-- Campos: valor, descrição, categoria, data  
-- Upload e download de comprovantes  
-- Categorias específicas para receitas  
-- Interface diferenciada por cores  
-
-### Gerenciamento de Categorias
-- Criação, edição e exclusão de categorias  
-- Escolha de ícones e cores  
-- Separação entre categorias de receita e despesa  
-- Categorias padrão criadas automaticamente  
-
-### Listagem de Transações
-- Visualização de todas as transações  
-- Filtros por tipo (todas, receitas, despesas)  
-- Ordenação por data  
-- Exclusão com confirmação  
-- Download de comprovantes disponíveis  
-- Interface responsiva e intuitiva  
-
 ### Design Responsivo
 - Interface adaptada para diferentes tamanhos de tela  
 - Componentes otimizados para mobile  
