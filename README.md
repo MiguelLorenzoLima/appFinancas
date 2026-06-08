@@ -3,7 +3,7 @@
 
 <p align="center">
   Aplicativo mobile de controle financeiro pessoal desenvolvido com <b>React Native</b>, <b>Expo</b> e <b>Supabase</b>.<br/>
-  Projeto criado durante as aulas de <b>Codificar Aplicações Móveis</b>.
+  <b>Codificar Aplicações Móveis</b>.
 </p>
 
 ---
