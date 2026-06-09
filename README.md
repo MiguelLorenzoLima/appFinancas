@@ -54,5 +54,4 @@
 ### Design Responsivo
 - Interface adaptada para diferentes tamanhos de tela  
 - Componentes otimizados para mobile  
-- Feedback visual e animações suaves  
-- Paleta de cores moderna e agradável  
+
