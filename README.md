@@ -53,5 +53,5 @@
 
 ### Design Responsivo
 - Interface adaptada para diferentes tamanhos de tela  
-- Componentes otimizados para mobile  
+ 
 
