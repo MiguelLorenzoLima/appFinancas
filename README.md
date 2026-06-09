@@ -49,9 +49,6 @@
 - Upload de comprovantes (imagens/PDFs) no Supabase Storage  
 - Seleção visual de categorias com ícones e cores  
 - Validação de dados  
-- Download de comprovantes na listagem  
-
-### Design Responsivo
-- Interface adaptada para diferentes tamanhos de tela  
+- Download de comprovantes na listagem 
  
 
